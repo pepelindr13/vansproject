@@ -1,0 +1,212 @@
+.navbar {
+    background-color: #FFF7ED;
+    padding: 80px;
+    position: relative;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar li, .navbar a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+}
+
+.box img{
+    height: 71.8vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.box-text {
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    color: white;
+}
+
+.box-text h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.box-text p{
+    font-size: 20px;
+}
+
+.box-text button {
+    background-color: #FF8C38;
+    color: white;
+    border: none;
+    padding: 20px 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.foot {
+    background-color: #252525;
+    height: 13.3vh;
+    color: #AAAAAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.aboutHero img {
+    width: 100%;
+    height: 50vh;
+}
+
+.aboutText {
+    background-color:#FFF7ED;
+}
+
+.aboutText h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+.aboutText p {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.aboutDesBox {
+    background-color:#FFF7ED;
+
+}
+
+.aboutDes {
+    background-color: #FFCC8D;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.aboutDes button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    width: 100%;
+}
+
+.butts button {
+    background-color:#FFEAD0;
+    font-weight: 600;
+    color: #4D4D4D;
+    padding: 5px 12px;
+    border: none;
+    margin-bottom: 40px;
+    border-radius: 4px;
+}
+
+#clearbtn{
+    background: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+.vans {
+    background-color:#FFF7ED;
+}
+
+.vans span {
+    font-size: 12px;
+}
+
+.simpleBtn {
+    background-color: #E17654;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 15px;
+    margin-top: 10px;
+}
+.ruggedBtn {
+    background-color: #115E59;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 15px;
+    margin-top: 10px;
+}
+.luxuryBtn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 15px;
+    margin-top: 10px;
+}
+
+
+@media (max-width:475px){
+    .aboutText h1{
+        font-size: 25px;
+    }
+
+    .foot {
+        height: 10vh;
+    }
+
+    .aboutHero img {
+        height: 20vh;
+    }
+
+    .box-text{
+        top: 200px;
+        left: 10px;
+        padding: 0 10px;
+    }
+
+    .box img {
+        height: 80vh;
+    }
+
+    .box-text button {
+        margin-top: 120px;
+    }
+
+    .box-text h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .box-text p{
+        font-size: 20px;
+    }
+
+    .vans h1 {
+        font-weight: 700;
+    }
+    
+}
